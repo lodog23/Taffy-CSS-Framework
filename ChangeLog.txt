@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
-## 0.6.0 - 2017-06-29
+## 0.6.0 - 2017-06-30
 ### Added
 - Grid Column Count
 	- Column Count Grow
@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file.
 - SCSS Support
 	- Taffy is now modular, use what you need only.
 	- Use variables to change specifics of Taffy.
-- Github
+- Github Support
 ### Changed
 - Changed it so you don't need to add the class ".grid__col" to a column for it behave like a column.
 
