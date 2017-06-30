@@ -1,0 +1,36 @@
+/*******************************GRID & COLUMNS*******************************/
+
+.grid{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+
+.grid>*{
+  flex-basis: 100%;
+  padding: $grid-gutter 0;
+}
+
+
+.grid__col{
+  flex-basis: 100%;
+  padding: $grid-gutter 0;
+}
+
+
+/*This gets applied when the device width is above 768px*/
+@media screen and (min-width: 768px){
+  .grid {
+    flex-direction: row;
+  }
+  .grid>*{
+    flex: 1;
+    padding: $grid-gutter;
+  }
+  .grid__col{
+    flex: 1;
+    padding: $grid-gutter;
+  }
+}
