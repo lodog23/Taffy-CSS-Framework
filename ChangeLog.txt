@@ -1,6 +1,13 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.6.5 - 2017-07-01
+### Added
+-Grid Browser Support
+	- Grid now works with IE 10+
+	- Grid does not work, but automatically stacks for IE 9 at any screen-size
+
+
 ## 0.6.0 - 2017-06-30
 ### Added
 - Grid Column Count
@@ -11,7 +18,7 @@ All notable changes to this project will be documented in this file.
 - SCSS Support
 	- Taffy is now modular, use what you need only.
 	- Use variables to change specifics of Taffy.
-- Github Support
+- Github
 ### Changed
 - Changed it so you don't need to add the class ".grid__col" to a column for it behave like a column.
 
