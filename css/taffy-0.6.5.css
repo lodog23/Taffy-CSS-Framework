@@ -115,14 +115,14 @@ small, .font_small {font-size: 0.8em;}
 .grid>*{
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
-  padding: .512rem 0;
+  padding: .512rem;
 }
 
 
 .grid__col{
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
-  padding: .512rem 0;
+  padding: .512rem;
 }
 
 
@@ -138,13 +138,11 @@ small, .font_small {font-size: 0.8em;}
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    padding: .512rem;
   }
   .grid__col{
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    padding: .512rem;
   }
 
 }
